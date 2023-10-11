@@ -11,6 +11,8 @@ body {
     font-weight: 75; 
     padding: 10px;
     background: url(backtext2.jpg);
+    background-clip: border-box;
+    -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
 }
